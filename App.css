@@ -1,0 +1,141 @@
+header{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex: wrap;
+
+.logo  h1{
+  color: darkgray ; 
+  font-size: 30px;
+  margin-left: 10px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: darkgray;
+}
+a{
+  padding: 20px;
+  color: darkgray;
+}
+.over{
+  display:grid;
+}
+
+span{
+  /* border: 1px solid darkgray; */
+  text-align: center;
+  visibility: hidden;
+}
+.over:hover span{
+  visibility: visible;
+}
+.over1{
+  display: grid;
+}
+.overcontent{
+  border: 1px solid darkgray;
+  padding: 20px;
+  visibility: hidden;
+  position: absolute;
+  margin:10px;
+  h3{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  button{
+      margin-bottom: 10px;
+      margin-left: -20px;
+      background-color: black;
+      color: white;
+      border-color: darkgray;
+      width: 100px;
+      height: 30px;
+
+  }
+}
+.over1:hover .overcontent{
+  visibility: visible;
+  margin-left: -270px;
+  margin-top:50px;
+}
+}
+
+/* ///////////////////////////////////////////// */
+/* // search popover */
+/* Styling for the Popover */
+.searchstyle {
+  position: absolute;
+  top: 18px; 
+  left: -400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 10px;
+  width: 700px;
+  z-index: 10;
+}
+.popoverMain{
+  border: 1px solid red;
+  width: 500px;
+  position: absolute;
+  top: 120px;
+  right: 700px;
+  background-color: #616060;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 400px;
+  z-index: 10;
+  border-radius: 8px;
+  
+}
+
+/* Close Button */
+.popover button {
+  font-size: 18px;
+  color: #333;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Form Styles */
+.form-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f10909;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.social-btn {
+  margin-right: 50px;
+  padding: 8px 10px;
+  
+  
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ .switch-btn{
+  background-color:#616060;
+  color: white;
+  border: none;
+  
+ }
